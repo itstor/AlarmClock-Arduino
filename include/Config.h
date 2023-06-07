@@ -1,0 +1,33 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define DEBUG 0
+#define ENABLE_KEYBOARD 1
+
+#define HARDWARE_TYPE MD_MAX72XX::FC16_HW
+#define MAX_DEVICES 4
+
+#define CLK_PIN 13
+#define DATA_PIN 11
+#define CS_PIN 10
+
+#define KEYBOARD_DATA_PIN 3
+#define KEYBOARD_CLOCK_PIN 2
+
+#define UP_BUTTON 7
+#define DOWN_BUTTON 8
+#define ENTER_BUTTON 6
+#define MENU_BUTTON 5
+
+#define LM35_PIN A7
+#define LDR_PIN A6
+
+#define BUZZER_PIN A1
+
+#define EEPROM_ADDRESS 0
+
+#define MAX_ADDITIONAL_DATA_LENGTH 6
+
+#define MAX_ALARM_SETTINGS 3
+
+#endif
